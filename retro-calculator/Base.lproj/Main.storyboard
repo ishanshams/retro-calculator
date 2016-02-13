@@ -182,6 +182,9 @@
                                                     <constraint firstAttribute="height" constant="65" id="nm9-f0-Xe8"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="add"/>
+                                                <connections>
+                                                    <action selector="onAddPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SCN-FG-sfn"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6O-wC-Pjp">
                                                 <rect key="frame" x="85" y="0.0" width="70" height="65"/>
@@ -201,6 +204,9 @@
                                                     <constraint firstAttribute="width" constant="70" id="TSR-Px-Adr"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="subtract"/>
+                                                <connections>
+                                                    <action selector="onSubtractPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ByP-pr-eap"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -214,6 +220,9 @@
                                                     <constraint firstAttribute="width" constant="70" id="yjj-Rt-Ner"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="divide"/>
+                                                <connections>
+                                                    <action selector="onDividePress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qT8-LH-a31"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qkj-Gn-MNt">
                                                 <rect key="frame" x="85" y="0.0" width="70" height="65"/>
@@ -222,6 +231,9 @@
                                                     <constraint firstAttribute="width" constant="70" id="cJX-7B-trg"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="equal"/>
+                                                <connections>
+                                                    <action selector="onEqualPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9gc-ue-rU1"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1G-PO-NXb">
                                                 <rect key="frame" x="170" y="0.0" width="70" height="65"/>
@@ -230,12 +242,15 @@
                                                     <constraint firstAttribute="height" constant="65" id="yuX-10-5tC"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="multiply"/>
+                                                <connections>
+                                                    <action selector="onMyltiplyPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zrc-bV-Veb"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="455599" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdT-Bd-hSA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdT-Bd-hSA">
                                 <rect key="frame" x="205" y="105" width="200" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="Yld-xI-UIc"/>
@@ -262,6 +277,9 @@
                             <constraint firstItem="AkR-ub-4II" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="qaF-D9-Kuq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="outputLabel" destination="bdT-Bd-hSA" id="jPe-Rr-rDE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
