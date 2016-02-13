@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0C523A1C6EE42200A2F732 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D0C52391C6EE42200A2F732 /* Minecraft.ttf */; };
 		2D705FAC1C6ED4A8005098C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D705FAB1C6ED4A8005098C3 /* AppDelegate.swift */; };
 		2D705FAE1C6ED4A8005098C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D705FAD1C6ED4A8005098C3 /* ViewController.swift */; };
 		2D705FB11C6ED4A8005098C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D705FAF1C6ED4A8005098C3 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D0C52391C6EE42200A2F732 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Minecraft.ttf; path = ../Minecraft.ttf; sourceTree = "<group>"; };
 		2D705FA81C6ED4A8005098C3 /* retro-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "retro-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D705FAB1C6ED4A8005098C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D705FAD1C6ED4A8005098C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		2D705FAA1C6ED4A8005098C3 /* retro-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				2D0C52391C6EE42200A2F732 /* Minecraft.ttf */,
 				2D705FAB1C6ED4A8005098C3 /* AppDelegate.swift */,
 				2D705FAD1C6ED4A8005098C3 /* ViewController.swift */,
 				2D705FAF1C6ED4A8005098C3 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				2D705FB61C6ED4A8005098C3 /* LaunchScreen.storyboard in Resources */,
 				2D705FB31C6ED4A8005098C3 /* Assets.xcassets in Resources */,
+				2D0C523A1C6EE42200A2F732 /* Minecraft.ttf in Resources */,
 				2D705FB11C6ED4A8005098C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +290,7 @@
 				2D705FBC1C6ED4A8005098C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
